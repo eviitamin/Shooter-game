@@ -43,8 +43,8 @@ public class enemyPatrol : StateMachineBehaviour
             currentCheckpoint = (currentCheckpoint + 1) % checkPoints.Count;
          }
 
-        var right = enemy.right *3;
-        var forward = enemy.up * 8;
+        var right = enemy.right *2;
+        var forward = enemy.up * 4;
         var triPointRight = enemyPos + forward + right;
         var triPointLeft = enemyPos + forward - right;
 
