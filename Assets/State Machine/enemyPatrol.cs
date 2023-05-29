@@ -58,8 +58,6 @@ public class enemyPatrol : StateMachineBehaviour
 
     }
 
-
-
         bool IsPointInTriangle(Vector3 a, Vector3 b, Vector3 c, Vector3 p)
         {
         Vector3 d, e;

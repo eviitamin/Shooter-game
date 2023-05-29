@@ -109,6 +109,8 @@ public class PlayerController : MonoBehaviour
             _animator.Play(IS_RUN);
         }
 
+        //FlipWeapon();
+
     }
 
     void OnCollisionEnter2D(Collision2D col){
@@ -139,4 +141,19 @@ public class PlayerController : MonoBehaviour
             Time.timeScale = 0;
         }
     }
+    
+    // private void FlipWeapon()   
+    // {
+    //     //flip weapon image if aiming to left or right
+    //     Vector3 aimLocalScale = Vector3.one;
+    //     if (aimAngle > 90 || aimAngle < -90)
+    //     {
+    //         aimLocalScale.y = -1f;
+    //     }
+    //     else
+    //     {
+    //         aimLocalScale.y = +1f;
+    //     }
+    //     pistolSprite.transform.localScale = aimLocalScale;
+    // }
 }

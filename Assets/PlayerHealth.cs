@@ -12,6 +12,8 @@ public class PlayerHealth : MonoBehaviour
 
     public GameObject gameOverScreen;
 
+    public bool isInvincible = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,7 +27,11 @@ public class PlayerHealth : MonoBehaviour
     }
 
     public void TakeDamage(int amount){
-      health-= amount;
+        if (isInvincible)
+        {
+            return;
+        }
+        health-= amount;
         if(health<=0){
             //Destroy(gameObject);  
 
