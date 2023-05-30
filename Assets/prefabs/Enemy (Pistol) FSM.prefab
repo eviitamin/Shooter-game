@@ -135,6 +135,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5285913755202487388}
     m_Modifications:
+    - target: {fileID: 9131322194787459386, guid: 5d75cf41ef11a1140b08971699964ad4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.037
+      objectReference: {fileID: 0}
+    - target: {fileID: 9131322194787459386, guid: 5d75cf41ef11a1140b08971699964ad4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.021
+      objectReference: {fileID: 0}
+    - target: {fileID: 9131322194787459386, guid: 5d75cf41ef11a1140b08971699964ad4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9351751
+      objectReference: {fileID: 0}
+    - target: {fileID: 9131322194787459386, guid: 5d75cf41ef11a1140b08971699964ad4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.35418558
+      objectReference: {fileID: 0}
+    - target: {fileID: 9131322194787459386, guid: 5d75cf41ef11a1140b08971699964ad4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -41.487
+      objectReference: {fileID: 0}
     - target: {fileID: 9131322195862905667, guid: 5d75cf41ef11a1140b08971699964ad4, type: 3}
       propertyPath: m_Name
       value: enemy FSM pistol

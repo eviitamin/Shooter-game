@@ -65,7 +65,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31c3cc78e3bfb8e49a4d77e1c638a72e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 250
+  speed: 350
 --- !u!1101 &-4698716664823036668
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -185,5 +185,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   checkPoints: []
-  speed: 200
+  speed: 300
   minDistance: 1
